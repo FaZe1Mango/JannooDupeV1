@@ -1,0 +1,19 @@
+
+{
+  "schemaVersion": 1,
+  "id": "jannoo_dupe",
+  "version": "1.0.0",
+  "name": "Jannoo Dupe V1",
+  "description": "Jannoo Singleplayer Dupe Mod",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.jannoo.dupe.JannooDupeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "26.1.2",
+    "fabric-api": "*"
+  }
+}
